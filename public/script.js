@@ -15,6 +15,7 @@ const draw = (height, width, padding) => {
 
   for (let rowIndex = 0; rowIndex < numberOfIterations; rowIndex++) {
     const halfRow = Array(midWidth).fill(0);
+    currentOrigin = Math.min(midWidth - 1, rowIndex);
 
     for (let colIndex = 0; colIndex <= currentOrigin; colIndex++) {
       const isValidStartPosition = chackIsValidStartPosition(colIndex);
@@ -26,7 +27,6 @@ const draw = (height, width, padding) => {
         halfRow.fill(1, rowIndex + 1);
       }
     }
-    currentOrigin = Math.min(midWidth, rowIndex);
     const fullRow = [...halfRow, ...halfRow.reverse()];
     halfCols.push(fullRow);
   }
