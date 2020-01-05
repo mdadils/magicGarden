@@ -44,7 +44,7 @@ Case1: Width: 20, Height:40, padding: 6
 .
 
 Case 2: Width: 60, Height:60, padding: 10
-![Case 2 Image](https://raw.githubusercontent.com/shahrukh-MT/magicGarden/master/Sample_Images/Case2.png)
+![Case 2 Image](https://raw.githubusercontent.com/shahrukh-MT/magicGarden/master/Sample_Images/Case2i.png)
 
 
 
